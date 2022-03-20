@@ -58,10 +58,10 @@ addition_to_expenses = number_of_employees * employee_salary * tax_multiplier
 # минимальная ожидаемая прибыль
 min_expected_profits = 500000
 
-import pandas
+import pandas as pd
 import seaborn
 
-realty_df = pandas.read_csv('yandex_realty_data.csv')
+realty_df = pd.read_csv('yandex_realty_data.csv')
 
 #print(realty_df)
 
